@@ -1,9 +1,10 @@
 import Wrapper from "../components/Wrapper";
+import Title from "../components/Title"
 import React from "react";
 function Blog() {
     return (
         <Wrapper>
-        <div>sup</div>
+        <Title>hello</Title>
         </Wrapper>
     );
 }
