@@ -1,0 +1,23 @@
+.scroll {
+  background-color: #912133;
+  background-size: cover;
+  
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+@media only screen and (max-width: 500px){ /* adds mobile responsivity */
+ 
+.scroll {
+height: 88%;
+}
+   
+  }

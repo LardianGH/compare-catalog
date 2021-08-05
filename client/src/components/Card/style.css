@@ -6,25 +6,16 @@
   border-radius: 2px;
   height: 250px;
   margin: 1rem;
-  width: 325px;
+  width: 245px;
   text-align: center;
 }
 
-.img-container {
-  height: 60%;
-  padding-bottom: 15px;
-  margin-top: 0;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.img-container:hover {
+.card:hover {
   background:#999;
 }
 
 img {
-  height: 80%;
-    transform: scale(1.8);
+    height: 80%;
     background-size: cover;
     background-position: center;
 }
@@ -38,23 +29,14 @@ img {
   line-height: 24px;
 }
 
-.soundName {
+.cardName {
   text-align: center;
   font-weight: 500;
   font-size: 25px;
   position: relative;
-  bottom: 34px;
+  /*bottom: 34px;*/
   cursor: pointer;
 }
-
-.soundDate {
-  color: #C4C059;
-}
-
-.soundUploader {
-  color: #45C954;
-}
-
 
 
 
