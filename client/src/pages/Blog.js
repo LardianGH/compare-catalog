@@ -14,6 +14,7 @@ function Blog() {
         <Card
         name={"Food"}
         image="assets/images/hamburger-icon.png"
+        link="/Article/Finest_Fast_Food_Flagship"
         > 
         </Card>
         <Card
